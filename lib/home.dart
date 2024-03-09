@@ -123,7 +123,7 @@ class _ValidatorState extends State<Validator> {
                                   r"^[a-zA-Z.a-zA-Z!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z]+\.[a-zA-Z]+$")
                               .hasMatch(value)) {
                             print('object');
-                            return 'Email must contain and @ symbol';
+                            return 'Email must contain letters, numbers and @ symbol';
                           }
                           return null;
                         },
